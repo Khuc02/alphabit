@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alphabit Infoway - Connecting the bits" />
+    <meta name="keywords" content="Alphabit Infoway website" />
+    <meta name="author" content="Khushi Tala" />
+    <title>Alphabit Infoway</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="info-container">
+        <div class="info-content first">
+          <h6>USA | INDIA</h6>
+          <h6>
+            <img src="images/mail.png" class="icons" />
+            <a href="mailto:info@alphabitinfoway.com"
+              >info@alphabitinfoway.com</a
+            >
+          </h6>
+        </div>
+        <div class="info-content">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/alphabit.infoway.pvt.ltd/"
+          >
+            <img src="images/facebook.png" class="icons"
+          /></a>
+          <a target="_blank" href="https://www.instagram.com/alphabitinfoway/">
+            <img src="images/insta.png" class="icons"
+          /></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/alpabitinfoway.com/?viewAsMember=true"
+          >
+            <img src="images/linkedin.png" class="icons"
+          /></a>
+          <img src="images/twitter.png" class="icons" />
+        </div>
+      </div>
+      <header>
+        <div class="logo-img">
+          <img
+            src="images/logo.png"
+            alt="Alphabit Infoway Logo"
+            class="logo"
+          />
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav class="navbar">
+          <h6><a href="#hero">Home</a></h6>
+          <h6><a href="#services">Services</a></h6>
+          <h6><a href="#products">Products</a></h6>
+          <h6><a href="#technology">Technology</a></h6>
+          <h6><a href="about.shtml">About</a></h6>
+          <h6><a href="#contact">Insights</a></h6>
+        </nav>
+        <button class="contact-btn">Contact Us</button>
+      </header>

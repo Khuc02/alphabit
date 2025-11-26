@@ -1,0 +1,661 @@
+
+<!--#include file="header.shtml" -->
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <!-- <div class="hero-bg"></div> -->
+        <div class="hero-container">
+          <div class="hero-text">
+            <h2 class="greeting word">
+              <span class="hand">👋🏼</span>Hello Innovator,
+            </h2>
+          </div>
+
+          <div class="hero-text2">
+            <h6 class="greeting2">
+              <span class="word">I'm</span>
+              <span class="word">Your</span>
+            </h6>
+          </div>
+          <div class="hero-text3">
+            <h6 class="greeting2">
+              <span class="orange-text word">AI</span>
+              <span class="word">Buddy</span>
+            </h6>
+          </div>
+          <div class="hero-text4">
+            <h2 class="greeting word">From</h2>
+          </div>
+          <div class="hero-text5">
+            <h2 class="greeting4">
+              <span class="bracket left-bracket">[</span>
+              <span class="greeting3">Alphabit <br />Infoway</span>
+              <span class="bracket right-bracket">]</span>
+            </h2>
+          </div>
+
+          <img
+            src="images/hero.png"
+            alt="Alphabit Infoway Hero"
+            class="hero-image"
+          />
+        </div>
+      </section>
+      <!-- Counting-number Section -->
+      <section class="counting-section">
+        <div class="counting-item">
+          <h1 class="counting-number" data-target="10">0+</h1>
+          <h6 class="counting-text">YEARS OF EXPERIENCE</h6>
+        </div>
+
+        <div class="counting-item">
+          <h1 class="counting-number" data-target="100">0+</h1>
+          <h6 class="counting-text">PROJECTS COMPLETED</h6>
+        </div>
+
+        <div class="counting-item">
+          <h1 class="counting-number" data-target="60">0+</h1>
+          <h6 class="counting-text">PRODUCT USERS</h6>
+        </div>
+      </section>
+
+      <!-- Solutions Section -->
+      <section class="solutions-section">
+        <div class="title-header">
+          <h2 class="section-title">EXPLORE THE FULL RANGE</h2>
+          <h2 class="section-title">
+            OF <span class="orange-bg">SOLUTIONS</span> WE DELIVER.
+          </h2>
+        </div>
+        <div class="solution-card card1">
+          <div class="solution-icon icon1">
+            <img src="images/Advance AI.png" alt="Solution 1 Icon" />
+          </div>
+          <h3 class="solution-title">Advance AI</h3>
+        </div>
+        <div class="solution-card card2">
+          <div class="solution-icon icon2">
+            <img
+              src="images/AI Software_Development.png"
+              alt="Solution 2 Icon"
+            />
+          </div>
+          <h3 class="solution-title">AI Software Development</h3>
+        </div>
+        <div class="solution-card card3">
+          <div class="solution-icon icon3">
+            <img
+              src="images/AI Mobile Application_Development.png"
+              alt="Solution 2 Icon"
+            />
+          </div>
+          <h3 class="solution-title title3">
+            AI Mobile Application Development
+          </h3>
+        </div>
+        <div class="solution-card card5">
+          <div class="solution-icon icon4">
+            <img
+              src="images/AI Product_Engineering.png"
+              alt="Solution 2 Icon"
+            />
+          </div>
+          <h3 class="solution-title">AI Product Engineering</h3>
+        </div>
+        <div class="solution-card card4">
+          <div class="solution-icon icon5">
+            <img src="images/Data Services.png" alt="Solution 2 Icon" />
+          </div>
+          <h3 class="solution-title">Data Services</h3>
+        </div>
+        <div class="solutions-image-wrapper">
+          <img
+            src="images/hero.png"
+            alt="Alphabit Infoway Hero"
+            class="solutions-image"
+          />
+        </div>
+      </section>
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="about-container1">
+          <div class="text-stack">
+            <div class="about-text1">
+              <div class="ellipse-icon">
+                <img src="images/orange-arrow.png" alt="Ellipse Icon" />
+              </div>
+              <h2 class="about-text2">LET ME INTRODUCE</h2>
+              <div class="about-text3 left-margin text3-mobile">
+                HAVE A BRILLIANT
+              </div>
+            </div>
+            <div class="about-text3">IDEA BOOST THE GROWTH</div>
+            <div class="about-text3">
+              <span class="text-with-border">DEVELOPMENT</span
+              ><span class="text-black"> AGENCY</span>
+            </div>
+            <div class="about-text3">
+              <span class="text-black"> YOUR </span
+              ><span class="text-with-border">BRANDING! </span>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="images/logo1.png" alt="About Image" />
+          </div>
+        </div>
+        <div class="about-container2">
+          <div class="profile-section">
+            <div class="image-section">
+              <div class="profile">
+                <img src="images/profile3.png" alt="Profile Image 1" />
+              </div>
+              <div class="profile">
+                <img src="images/profile2.png" alt="Profile Image 1" />
+              </div>
+              <div class="profile">
+                <img src="images/profile1.png" alt="Profile Image 1" />
+              </div>
+            </div>
+            <div class="profile-text">
+              <h6 class="profile-text1">32K +</h6>
+              <div class="client-stack">
+                <h6>happy clients</h6>
+                <h6>of our</h6>
+                <h6>services</h6>
+              </div>
+            </div>
+          </div>
+          <div class="about-description">
+            <p class="description-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+        </div>
+        <div class="about-container3">
+          <div id="button-container">
+            <button class="explore-btn">
+              Explore Us <br />More
+              <span class="round"></span>
+            </button>
+          </div>
+          <div class="explore-card">
+            <div class="explore-image">
+              <img src="images/logo3.png" alt="Explore More Image" />
+            </div>
+            <div class="explore-text">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+              <h1 class="explore-count">1.8 <span>x</span></h1>
+              <div class="explore-title">Faster Service</div>
+            </div>
+          </div>
+          <div class="image-card1"></div>
+          <div class="image-card2"></div>
+        </div>
+      </section>
+      <!-- Cross-line Section -->
+      <section class="cross-line-section">
+        <div class="cross-line orange-line">
+          <div class="marquee">
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+            <span>
+              Website Design <img src=".images/arrow.png" alt="" /> Brand
+              Design <img src=".images/arrow.png" alt="" /> Software
+              Development <img src=".images/arrow.png" alt="" /> App
+              Development <img src=".images/arrow.png" alt="" /> Logo Design
+              <img src=".images/arrow.png" alt="" />
+            </span>
+          </div>
+        </div>
+
+        <div class="cross-line gray-line">
+          <div class="marquee">
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+            <span>
+              Over 100+ Clients
+              <img src=".images/arrow2.png" alt="" /> Experienced Team
+              <img src=".images/arrow2.png" alt="" /> Creative Approach
+              <img src=".images/arrow2.png" alt="" /> Strategic Thinking
+              <img src=".images/arrow2.png" alt="" />
+            </span>
+          </div>
+        </div>
+      </section>
+      <!-- Schedule Section -->
+      <section class="schedule-section">
+        <div class="schedule-content">
+          <p>👋🏼 Hey Innovator,</p>
+          <h2>
+            I'm Your<span class="span-image"></span
+            ><span class="span-orange"> AI</span
+            ><span class="span-white">(Alphabit Infoway)</span>
+          </h2>
+          <h2>
+            <span class="span-orange">Buddy, </span>Let's<span
+              class="span-image"
+            ></span>
+            Convert
+          </h2>
+          <h2>
+            Your <span class="span-white">Idea</span
+            ><span class="span-image"></span> into
+            <span class="span-white">Reality</span>
+          </h2>
+        </div>
+        <button class="schedule-btn">Schedule a Meeting</button>
+      </section>
+      <!-- Delivering Excellence Section -->
+      <section class="delivering-excellence">
+        <div class="title-header">
+          <h2 class="section-title">
+            DELIVERING <span class="orange-bg">EXCELLENCE</span> TO
+          </h2>
+          <h2 class="section-title">TRANSFORM BUSINESSES</h2>
+        </div>
+        <div class="bg-card"></div>
+        <div class="excellence-title">Data Backups</div>
+        <div class="carousel">
+          <div class="card"><img src="images/img1.jpeg" /></div>
+          <div class="card"><img src="images/img2.jpeg" /></div>
+          <div class="card"><img src="images/img3.jpeg" /></div>
+          <div class="card"><img src="4.jpg" /></div>
+          <div class="card"><img src="5.jpg" /></div>
+        </div>
+        <p class="excellence-description">
+          We carefully maintain our client's project backups to make sure to
+          minimize the chances of data misfortunes.
+        </p>
+      </section>
+      <!-- Working Process Section -->
+      <section class="working-process-section">
+        <div class="title-header">
+          <h2 class="section-title">
+            WORKING <span class="orange-bg">PROCESS</span>
+          </h2>
+        </div>
+
+        <div class="timeline">
+          <div class="step right">
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon1.png" alt="process icon" />
+              </div>
+            </div>
+            <div class="process-card">
+              <h3>Requirement Gathering</h3>
+              <p>
+                Focus would be on documentation first for clarity and better
+                understanding from both sides and come to the same page.
+              </p>
+            </div>
+          </div>
+          <div class="step left">
+            <div class="process-card">
+              <h3>Designs, Wireframes, & Mockups</h3>
+              <p>
+                We help our clients to create an interactive and wonder to watch
+                UI designs that describes user-friendly flow of
+                web/app/platform.
+              </p>
+            </div>
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon2.png" alt="process icon" />
+              </div>
+            </div>
+          </div>
+          <div class="step right">
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon3.png" alt="process icon" />
+              </div>
+            </div>
+            <div class="process-card">
+              <h3>Prototype Demo</h3>
+              <p>
+                After finalizing and designs approval, we freeze the scope and
+                help our client with demo or prototype to have a look and feel
+                of the app/web/platform.
+              </p>
+            </div>
+          </div>
+
+          <div class="step left">
+            <div class="process-card">
+              <h3>Changes And Confirmation</h3>
+              <p>
+                Clients can feel free to add and mention the required changes as
+                per expectations they need in the existing platform. We'll
+                proceed with client's confirmation on the same.
+              </p>
+            </div>
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon4.png" alt="process icon" />
+              </div>
+            </div>
+          </div>
+          <div class="step right">
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon5.png" alt="process icon" />
+              </div>
+            </div>
+            <div class="process-card">
+              <h3>Development</h3>
+              <p>
+                With client approval, we start the development with the
+                technologies best suited for you, and deliver you results in the
+                timeframe as committed by our technical team.
+              </p>
+            </div>
+          </div>
+          <div class="step left">
+            <div class="process-card">
+              <h3>Deployment</h3>
+              <p>
+                We are open to help our clients with final testing, UAT,
+                training, and final deployment of the source code, and launching
+                in client's platform.
+              </p>
+            </div>
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon6.png" alt="process icon" />
+              </div>
+            </div>
+          </div>
+
+          <div class="step right">
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon7.png" alt="process icon" />
+              </div>
+            </div>
+            <div class="process-card">
+              <h3>Support And Maintenance</h3>
+              <p>
+                We provide free service and support as per decided terms in our
+                agreement. We also provide packages further monthly or yearly
+                based on your requirement
+              </p>
+            </div>
+          </div>
+          <div class="step left">
+            <div class="process-card">
+              <h3>SEO</h3>
+              <p>
+                We are open to help our clients for promoting their
+                businesses/products with providing complimentary SEO services,
+                providing them a help hand to market their product/business.
+              </p>
+            </div>
+            <div class="icon-wrapper">
+              <div class="step-icon purple">
+                <img src="images/icon8.png" alt="process icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- target industries Section -->
+      <section class="target-industries-section">
+        <div class="title-header">
+          <h2 class="section-title">
+            TARGETED <span class="orange-bg">INDUSTRIES</span>
+          </h2>
+        </div>
+
+        <!-- floating icons -->
+        <div class="icons-wrapper">
+          <div class="icon icon-1">
+            <img src="images/industry/Frame.png" alt="" />
+          </div>
+
+          <div class="icon icon-2">
+            <img src="images/industry/Frame(4).png" alt="" />
+          </div>
+
+          <div class="icon icon-3">
+            <img src="images/industry/Frame(5).png" alt="" />
+          </div>
+
+          <div class="icon icon-4">
+            <img src="images/industry/Frame(6).png" alt="" />
+          </div>
+
+          <div class="icon icon-5">
+            <img src="images/industry/Frame(7).png" alt="" />
+          </div>
+
+          <div class="icon icon-6">
+            <img src="images/industry/Frame(8).png" alt="" />
+          </div>
+
+          <div class="icon icon-7">
+            <img src="images/industry/Frame(9).png" alt="" />
+          </div>
+
+          <div class="icon icon-8">
+            <img src="images/industry/Frame(3).png" alt="" />
+          </div>
+
+          <div class="icon icon-9">
+            <img src="images/industry/Frame(1).png" alt="" />
+          </div>
+
+          <div class="icon icon-10">
+            <img src="images/industry/Frame(2).png" alt="" />
+          </div>
+        </div>
+
+        <div class="center-text">
+          <p>Where <span class="gray-pill"></span><span>Ambition</span></p>
+          <p>Finds <span>Direction.</span> <span class="gray-pill"></span></p>
+        </div>
+      </section>
+      <!-- Expertise Section -->
+      <section class="expertise-section">
+        <div class="title-header">
+          <h2 class="section-title">WAYS TO LEVERAGE OUR</h2>
+          <h2 class="section-title">
+            DEVELOPMENT <span class="orange-bg">EXPERTISE</span>
+          </h2>
+        </div>
+
+        <div class="expertise-cards">
+          <div class="expertise-card">
+            <div class="icon-box">
+              <img src="images/icon-fixed.png" alt="icon" />
+            </div>
+            <h3>Fixed Price Model</h3>
+            <p>
+              The development team works with a predefined scope of work with
+              its associated cost and a timeline.
+            </p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="icon-box">
+              <img src="images/icon-dedicated.png" alt="icon" />
+            </div>
+            <h3>Hire Dedicated Model</h3>
+            <p>
+              Hire a dedicated team of developers to work on your unique
+              development requirements and pay them based on an hourly rate.
+            </p>
+          </div>
+
+          <div class="expertise-card">
+            <div class="icon-box">
+              <img src="images/icon-onsite.png" alt="icon" />
+            </div>
+            <h3>Onsite Model</h3>
+            <p>
+              Hire a team of developers on a contract basis to get additional
+              temporary resources for on-site development support.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- My Presence Section -->
+      <section class="Presence-section">
+        <div class="title-header">
+          <h2 class="section-title">
+            MY <span class="orange-bg"> PRESENCE</span>
+          </h2>
+        </div>
+        <div class="Presence-container">
+          <div class="Presence-card">
+            <img src="images/plogo1.png" alt="" />
+          </div>
+          <div class="Presence-card">
+            <img src="images/plogo2.png" alt="" />
+          </div>
+          <div class="Presence-card">
+            <img src="images/plogo3.png" alt="" />
+          </div>
+          <div class="Presence-card">
+            <img src="images/plogo4.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-- Blog Slider Section -->
+      <section class="Blog-section">
+        <div class="title-header">
+          <h2 class="section-title">
+            <span class="orange-bg">BLOG</span> SLIDER
+          </h2>
+        </div>
+
+        <div class="blog-container">
+          <div class="blog-card">
+            <h3 class="blog-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h3>
+            <div class="blog-image"></div>
+            <p class="blog-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="blog-author">
+              <h4>OLIVER KUGAR</h4>
+              <span>20 DEC 2024 - STORY</span>
+            </div>
+          </div>
+          <div class="blog-card">
+            <h3 class="blog-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h3>
+            <div class="blog-image"></div>
+            <p class="blog-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="blog-author">
+              <h4>OLIVER KUGAR</h4>
+              <span>20 DEC 2024 - STORY</span>
+            </div>
+          </div>
+
+          <div class="blog-card">
+            <h3 class="blog-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </h3>
+            <div class="blog-image"></div>
+            <p class="blog-desc">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <div class="blog-author">
+              <h4>OLIVER KUGAR</h4>
+              <span>20 DEC 2024 - STORY</span>
+            </div>
+          </div>
+        </div>
+      </section>
+<!--#include file="footer.shtml" -->
+
