@@ -1,13 +1,17 @@
+document.addEventListener("DOMContentLoaded", () => {
 
-    document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById("year").textContent = new Date().getFullYear();
 
-    let track = document.querySelector(".carousel");
+
+  // ======== CAROUSEL ========
+  let track = document.querySelector(".carousel");
+
+  if (track) {
 
     function updatePositions() {
       let cards = document.querySelectorAll(".carousel .card");
-
+      if (cards.length < 3) return;
       cards.forEach((c) => c.classList.remove("big"));
-
       cards[2].classList.add("big");
     }
 
@@ -18,51 +22,54 @@
 
     updatePositions();
     setInterval(slide, 2500);
+  }
 
-    document.addEventListener("DOMContentLoaded", () => {
-      const steps = document.querySelectorAll(".step");
 
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry, idx) => {
-            if (entry.isIntersecting) {
-              const step = entry.target;
-              const card = step.querySelector(".process-card");
-              const iconWrap = step.querySelector(".icon-wrapper");
-              const icon = step.querySelector(".step-icon");
+  // ======== PROCESS STEPS ========
+  const steps = document.querySelectorAll(".step");
 
-              setTimeout(() => {
-                card.style.transition = "0.6s ease";
-                card.style.opacity = "1";
-                card.style.transform = "translateY(0)";
-              }, idx * 600);
+  if (steps.length > 0) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry, idx) => {
+          if (entry.isIntersecting) {
+            const step = entry.target;
+            const card = step.querySelector(".process-card");
+            const iconWrap = step.querySelector(".icon-wrapper");
+            const icon = step.querySelector(".step-icon");
 
-              setTimeout(() => {
-                iconWrap.style.transition = "0.5s ease";
-                iconWrap.style.opacity = "1";
-              }, idx * 600 + 300);
+            setTimeout(() => {
+              card.style.transition = "0.6s ease";
+              card.style.opacity = "1";
+              card.style.transform = "translateY(0)";
+            }, idx * 600);
 
-              setTimeout(() => {
-                icon.style.transition = "0.4s ease";
-                icon.style.opacity = "1";
-                icon.style.transform = "scale(1)";
-              }, idx * 600 + 500);
-            }
-          });
-        },
-        { threshold: 0.2 }
-      );
+            setTimeout(() => {
+              iconWrap.style.transition = "0.5s ease";
+              iconWrap.style.opacity = "1";
+            }, idx * 600 + 300);
 
-      steps.forEach((step) => observer.observe(step));
-    });
+            setTimeout(() => {
+              icon.style.transition = "0.4s ease";
+              icon.style.opacity = "1";
+              icon.style.transform = "scale(1)";
+            }, idx * 600 + 500);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
 
-    // Presence slider
+    steps.forEach((step) => observer.observe(step));
+  }
 
-    document.addEventListener("DOMContentLoaded", function () {
-      if (window.innerWidth > 768) return;
 
-      const container = document.querySelector(".Presence-container");
-      const cards = Array.from(document.querySelectorAll(".Presence-card"));
+  // ======== PRESENCE SLIDER ========
+  if (window.innerWidth <= 768) {
+    const container = document.querySelector(".Presence-container");
+    const cards = Array.from(document.querySelectorAll(".Presence-card"));
+
+    if (container && cards.length > 0) {
 
       cards.forEach((card) => {
         const clone = card.cloneNode(true);
@@ -87,33 +94,36 @@
       }
 
       setInterval(autoSlide, 2500);
+    }
+  }
+
+
+  // ======== COUNTING ========
+  const counters = document.querySelectorAll(".counting-number");
+  const section = document.querySelector(".counting-section");
+  let started = false;
+
+  function startCounting() {
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target");
+      let current = 0;
+      const speed = target / 200;
+
+      const updateCount = () => {
+        if (current < target) {
+          current += speed;
+          counter.innerText = Math.floor(current) + "+";
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target + "+";
+        }
+      };
+
+      updateCount();
     });
+  }
 
-    // counting numbers
-
-    const counters = document.querySelectorAll(".counting-number");
-    let started = false;
-
-    const startCounting = () => {
-      counters.forEach((counter) => {
-        const target = +counter.getAttribute("data-target");
-        let current = 0;
-        const speed = target / 200;
-
-        const updateCount = () => {
-          if (current < target) {
-            current += speed;
-            counter.innerText = Math.floor(current) + "+";
-            requestAnimationFrame(updateCount);
-          } else {
-            counter.innerText = target + "+";
-          }
-        };
-
-        updateCount();
-      });
-    };
-
+  if (section) {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -123,54 +133,46 @@
           }
         });
       },
-      {
-        threshold: 0.3, // trigger when 30% of the section is visible
-      }
+      { threshold: 0.3 }
     );
+    observer.observe(section);
+  }
 
-    observer.observe(document.querySelector(".counting-section"));
 
-    // explore button
+  // ======== EXPLORE BUTTON ========
+  const button = document.querySelector(".explore-btn");
+  const item = document.querySelector(".explore-btn .round");
 
-    let button = document.querySelector(".explore-btn");
-    let item = document.querySelector(".explore-btn .round");
-
+  if (button && item) {
     button.addEventListener("mouseenter", function (event) {
       this.classList.add("animate");
-
-      let buttonX = event.offsetX;
-      let buttonY = event.offsetY;
-
-      item.style.top = buttonY + "px";
-      item.style.left = buttonX + "px";
+      item.style.top = event.offsetY + "px";
+      item.style.left = event.offsetX + "px";
       item.style.width = "1px";
       item.style.height = "1px";
     });
 
     button.addEventListener("mouseleave", function (event) {
       this.classList.remove("animate");
-
-      let buttonX = event.offsetX;
-      let buttonY = event.offsetY;
-
-      item.style.top = buttonY + "px";
-      item.style.left = buttonX + "px";
+      item.style.top = event.offsetY + "px";
+      item.style.left = event.offsetX + "px";
     });
+  }
 
-    // solution section
 
-    const cards = document.querySelectorAll(
-      ".card1, .card2, .card3, .card4, .card5"
-    );
+  // ======== SOLUTION SECTION ========
+  const solCards = document.querySelectorAll(".card1, .card2, .card3, .card4, .card5");
+  const solSection = document.querySelector(".solutions-section");
 
+  if (solSection && solCards.length > 0) {
     const observerSolution = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            cards.forEach((card, index) => {
+            solCards.forEach((card, index) => {
               setTimeout(() => {
                 card.classList.add("active");
-              }, index * 150); // stagger effect
+              }, index * 150);
             });
           }
         });
@@ -178,20 +180,24 @@
       { threshold: 0.4 }
     );
 
-    observerSolution.observe(document.querySelector(".solutions-section"));
+    observerSolution.observe(solSection);
+  }
 
-    //footer section
-    const footer = document.querySelector(".Footer");
 
+  // ======== FOOTER SECTION ========
+  const footer = document.querySelector(".Footer");
+
+  if (footer) {
     const observerFooter = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            footer.classList.add("active");
-          }
+          if (entry.isIntersecting) footer.classList.add("active");
         });
       },
       { threshold: 0.3 }
     );
 
     observerFooter.observe(footer);
+  }
+
+});
