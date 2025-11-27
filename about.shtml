@@ -1,2 +1,188 @@
-<!--#include file="header.shtml" -->
-<!--#include file="footer.shtml" -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Alphabit Infoway - Connecting the bits" />
+    <meta name="keywords" content="Alphabit Infoway website" />
+    <meta name="author" content="Khushi Tala" />
+    <title>Alphabit Infoway</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--#include file="header.shtml" -->
+
+    <div class="about-page">
+      <section class="aboutpage-container1">
+        <h1>KARMA is Our identity Because</h1>
+        <h1>
+          the Principle of Living is <span class="orange-text2">KARMA!</span>
+        </h1>
+        <div class="aboutus1">
+          <h6>01.ABOUT US</h6>
+          <div class="about-horizontal-line"></div>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+        </div>
+      </section>
+      <section class="aboutpage-container2">
+        <div class="aboutus2">
+          <div class="about-image1">Image</div>
+          <div class="about-image2">
+            <div class="about-image3">
+              <div class="about-card">Image</div>
+              <div class="about-card text">
+                <img src="images/about-logo-white.png" alt="" />
+                <p>We helped to get companies with $25M+ funding</p>
+                <h1>25M+</h1>
+              </div>
+            </div>
+            <div class="about-image4">
+              <div class="about-card1 text light">
+                <img src="images/about-logo-white.png" alt="" />
+                <p>We have 100+ satisfied clients</p>
+                <h1>100+</h1>
+              </div>
+              <div class="about-card1">Image</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="aboutpage-container3">
+        <div class="about-container1">
+          <div class="about-image">
+            <img src="images/about-logo-purple.png" alt="About Image" />
+          </div>
+          <div class="text-stack">
+            <div class="about-text1">
+              <div class="ellipse-icon">
+                <img src="images/orange-arrow.png" alt="Ellipse Icon" />
+              </div>
+              <h2 class="about-text2">LET ME INTRODUCE</h2>
+              <div class="about-text3 left-margin text3-mobile">
+                HAVE A BRILLIANT
+              </div>
+            </div>
+            <div class="about-text3">IDEA BOOST THE GROWTH</div>
+            <div class="about-text3">
+              <span class="text-with-border">DEVELOPMENT</span
+              ><span class="text-black"> AGENCY</span>
+            </div>
+            <div class="about-text3">
+              <span class="text-black"> YOUR </span
+              ><span class="text-with-border">BRANDING! </span>
+            </div>
+            <div class="about-page-description">
+              <p>
+                Alphabit Infoway had started its journey on March 8, 2018 at
+                Women's Day. Poonam Tala, The founder of Alphabit, had a single
+                vision, to bring innovation in the education field with the help
+                of information technology.
+              </p>
+              <p>
+                After completing her computer engineering at Gujarat
+                Technological University (GTU), Poonam Tala started Alphabet
+                with three developers by setting up ten computers in a classroom
+                of her relative's school to make her vision worthwhile.
+              </p>
+              <p>
+                Today, along with industrial training, Alphabit provides small
+                scale to large scale industrial services and also does product
+                development on the unique ideas of entrepreneur’s and with its
+                branches in two mega cities of Gujarat, Alphabit also provides
+                services with its team in countries like Dubai, Denmark
+                including US, UK, Australia and Canada.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="aboutpage-container4">
+        <section class="counting-section">
+          <div class="counting-item">
+            <h1 class="counting-number" data-target="10">0+</h1>
+            <h6 class="counting-text">YEARS OF EXPERIENCE</h6>
+          </div>
+
+          <div class="counting-item">
+            <h1 class="counting-number" data-target="100">0+</h1>
+            <h6 class="counting-text">PROJECTS COMPLETED</h6>
+          </div>
+
+          <div class="counting-item">
+            <h1 class="counting-number" data-target="60">0+</h1>
+            <h6 class="counting-text">PRODUCT USERS</h6>
+          </div>
+        </section>
+      </section>
+    </div>
+    <!--#include file="footer.shtml" -->
+  </body>
+  <script>
+    // counting numbers
+    const counters = document.querySelectorAll(".counting-number");
+    let started = false;
+
+    const startCounting = () => {
+      counters.forEach((counter) => {
+        const target = +counter.getAttribute("data-target");
+        let current = 0;
+        const speed = target / 200;
+
+        const updateCount = () => {
+          if (current < target) {
+            current += speed;
+            counter.innerText = Math.floor(current) + "+";
+            requestAnimationFrame(updateCount);
+          } else {
+            counter.innerText = target + "+";
+          }
+        };
+
+        updateCount();
+      });
+    };
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !started) {
+            startCounting();
+            started = true;
+          }
+        });
+      },
+      {
+        threshold: 0.3,
+      }
+    );
+
+    observer.observe(document.querySelector(".counting-section"));
+
+    //footer section
+    const footer = document.querySelector(".Footer");
+
+    const observerFooter = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            footer.classList.add("active");
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    observerFooter.observe(footer);
+  </script>
+</html>

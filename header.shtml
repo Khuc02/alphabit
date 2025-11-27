@@ -17,56 +17,24 @@
   </head>
 
   <body>
-    <div class="container">
-      <div class="info-container">
-        <div class="info-content first">
-          <h6>USA | INDIA</h6>
-          <h6>
-            <img src="images/mail.png" class="icons" />
-            <a href="mailto:info@alphabitinfoway.com"
-              >info@alphabitinfoway.com</a
-            >
-          </h6>
-        </div>
-        <div class="info-content">
-          <a
-            target="_blank"
-            href="https://www.facebook.com/alphabit.infoway.pvt.ltd/"
-          >
-            <img src="images/facebook.png" class="icons"
-          /></a>
-          <a target="_blank" href="https://www.instagram.com/alphabitinfoway/">
-            <img src="images/insta.png" class="icons"
-          /></a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/company/alpabitinfoway.com/?viewAsMember=true"
-          >
-            <img src="images/linkedin.png" class="icons"
-          /></a>
-          <img src="images/twitter.png" class="icons" />
-        </div>
+    <header>
+      <div class="logo-img">
+        <img src="images/logo.png" alt="Alphabit Infoway Logo" class="logo" />
       </div>
-      <header>
-        <div class="logo-img">
-          <img
-            src="images/logo.png"
-            alt="Alphabit Infoway Logo"
-            class="logo"
-          />
-        </div>
-        <div class="menu-toggle">
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
-        <nav class="navbar">
-          <h6><a href="#hero">Home</a></h6>
-          <h6><a href="#services">Services</a></h6>
-          <h6><a href="#products">Products</a></h6>
-          <h6><a href="#technology">Technology</a></h6>
-          <h6><a href="about.shtml">About</a></h6>
-          <h6><a href="#contact">Insights</a></h6>
-        </nav>
-        <button class="contact-btn">Contact Us</button>
-      </header>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar">
+        <h6><a href="index.shtml">Home</a></h6>
+        <h6><a href="#services">Services</a></h6>
+        <h6><a href="#products">Products</a></h6>
+        <h6><a href="#technology">Technology</a></h6>
+        <h6><a href="about.shtml">About</a></h6>
+        <h6><a href="#contact">Insights</a></h6>
+      </nav>
+      <button class="contact-btn">Contact Us</button>
+    </header>
+  </body>
+</html>
