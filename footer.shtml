@@ -1,22 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Alphabit Infoway - Connecting the bits" />
-    <meta name="keywords" content="Alphabit Infoway website" />
-    <meta name="author" content="Khushi Tala" />
-    <title>Alphabit Infoway</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
     <!-- Footer -->
     <section class="Footer">
       <div class="footer-bg-clip">
@@ -26,20 +8,20 @@
         <div class="footer-left">
           <div class="footer-icons">
             <a target="_blank" href="#">
-              <img src="images/twitter2.png" alt="twitter"
+              <img src="./assets/images/twitter2.png" alt="twitter"
             /></a>
             <a
               target="_blank"
               href="https://www.linkedin.com/company/alpabitinfoway.com/?viewAsMember=true"
-              ><img src="images/linkedin2.png" alt="linkedin"
+              ><img src="./assets/images/linkedin2.png" alt="linkedin"
             /></a>
             <a target="_blank" href="https://www.instagram.com/alphabitinfoway/"
-              ><img src="images/instagram.png" alt="instagram"
+              ><img src="./assets/images/instagram.png" alt="instagram"
             /></a>
             <a
               target="_blank"
               href="https://www.facebook.com/alphabit.infoway.pvt.ltd/"
-              ><img src="images/facebook2.png" alt="facebook"
+              ><img src="./assets/images/facebook2.png" alt="facebook"
             /></a>
           </div>
           <div class="footer-text">
@@ -57,7 +39,7 @@
         </div>
 
         <div class="footer-right">
-          <img src="images/AI Model.png" alt="Robot" />
+          <img src="./assets/images/AI Model.png" alt="Robot" />
         </div>
       </div>
 
@@ -71,5 +53,7 @@
         </div>
       </div>
     </section>
+    <script src="./assets/js/main.js"></script>
+  </div>
   </body>
 </html>

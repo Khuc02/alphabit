@@ -1,22 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Alphabit Infoway - Connecting the bits" />
-    <meta name="keywords" content="Alphabit Infoway website" />
-    <meta name="author" content="Khushi Tala" />
-    <title>Alphabit Infoway</title>
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<!--#include file="head.shtml" -->
 
-  <body>
     <!--#include file="header.shtml" -->
 
     <div class="about-page">
@@ -42,14 +25,14 @@
             <div class="about-image3">
               <div class="about-card">Image</div>
               <div class="about-card text">
-                <img src="images/about-logo-white.png" alt="" />
+                <img src="./assets/images/about-logo-white.png" alt="" />
                 <p>We helped to get companies with $25M+ funding</p>
                 <h1>25M+</h1>
               </div>
             </div>
             <div class="about-image4">
               <div class="about-card1 text light">
-                <img src="images/about-logo-white.png" alt="" />
+                <img src="./assets/images/about-logo-white.png" alt="" />
                 <p>We have 100+ satisfied clients</p>
                 <h1>100+</h1>
               </div>
@@ -61,12 +44,12 @@
       <section class="aboutpage-container3">
         <div class="about-container1">
           <div class="about-image">
-            <img src="images/about-logo-purple.png" alt="About Image" />
+            <img src="./assets/images/about-logo-purple.png" alt="About Image" />
           </div>
           <div class="text-stack">
             <div class="about-text1">
               <div class="ellipse-icon">
-                <img src="images/orange-arrow.png" alt="Ellipse Icon" />
+                <img src="./assets/images/orange-arrow.png" alt="Ellipse Icon" />
               </div>
               <h2 class="about-text2">LET ME INTRODUCE</h2>
               <div class="about-text3 left-margin text3-mobile">
@@ -125,64 +108,5 @@
           </div>
         </section>
       </section>
-    </div>
+    
     <!--#include file="footer.shtml" -->
-  </body>
-  <script>
-    // counting numbers
-    const counters = document.querySelectorAll(".counting-number");
-    let started = false;
-
-    const startCounting = () => {
-      counters.forEach((counter) => {
-        const target = +counter.getAttribute("data-target");
-        let current = 0;
-        const speed = target / 200;
-
-        const updateCount = () => {
-          if (current < target) {
-            current += speed;
-            counter.innerText = Math.floor(current) + "+";
-            requestAnimationFrame(updateCount);
-          } else {
-            counter.innerText = target + "+";
-          }
-        };
-
-        updateCount();
-      });
-    };
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !started) {
-            startCounting();
-            started = true;
-          }
-        });
-      },
-      {
-        threshold: 0.3,
-      }
-    );
-
-    observer.observe(document.querySelector(".counting-section"));
-
-    //footer section
-    const footer = document.querySelector(".Footer");
-
-    const observerFooter = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            footer.classList.add("active");
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    observerFooter.observe(footer);
-  </script>
-</html>
