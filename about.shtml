@@ -1,112 +1,273 @@
 <!--#include file="head.shtml" -->
 
-    <!--#include file="header.shtml" -->
+<!--#include file="header.shtml" -->
 
-    <div class="about-page">
-      <section class="aboutpage-container1">
-        <h1>KARMA is Our identity Because</h1>
-        <h1>
-          the Principle of Living is <span class="orange-text2">KARMA!</span>
-        </h1>
-        <div class="aboutus1">
-          <h6>01.ABOUT US</h6>
-          <div class="about-horizontal-line"></div>
+<div class="about-page">
+  <section class="aboutpage-container1">
+    <h1>KARMA is Our identity Because</h1>
+    <h1>the Principle of Living is <span class="orange-text2">KARMA!</span></h1>
+    <div class="aboutus1">
+      <h6>01.ABOUT US</h6>
+      <div class="about-horizontal-line"></div>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry. Lorem Ipsum has been the industry's standard dummy text ever
+        since the 1500s
+      </p>
+    </div>
+  </section>
+  <section class="aboutpage-container2">
+    <div class="aboutus2">
+      <div class="about-image1">Image</div>
+      <div class="about-image2">
+        <div class="about-image3">
+          <div class="about-card">Image</div>
+          <div class="about-card text">
+            <img src="./assets/images/about-logo-white.png" alt="" />
+            <p>We helped to get companies with $25M+ funding</p>
+            <h1>25M+</h1>
+          </div>
+        </div>
+        <div class="about-image4">
+          <div class="about-card1 text light">
+            <img src="./assets/images/about-logo-white.png" alt="" />
+            <p>We have 100+ satisfied clients</p>
+            <h1>100+</h1>
+          </div>
+          <div class="about-card1">Image</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="aboutpage-container3">
+    <div class="about-container1">
+      <div class="about-image">
+        <img src="./assets/images/about-logo-purple.png" alt="About Image" />
+      </div>
+      <div class="text-stack">
+        <div class="about-text1">
+          <div class="ellipse-icon">
+            <img src="./assets/images/orange-arrow.png" alt="Ellipse Icon" />
+          </div>
+          <h2 class="about-text2">LET ME INTRODUCE</h2>
+          <div class="about-text3 left-margin text3-mobile">
+            HAVE A BRILLIANT
+          </div>
+        </div>
+        <div class="about-text3">IDEA BOOST THE GROWTH</div>
+        <div class="about-text3">
+          <span class="text-with-border">DEVELOPMENT</span
+          ><span class="text-black"> AGENCY</span>
+        </div>
+        <div class="about-text3">
+          <span class="text-black"> YOUR </span
+          ><span class="text-with-border">BRANDING! </span>
+        </div>
+        <div class="about-page-description">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s
+            Alphabit Infoway had started its journey on March 8, 2018 at Women's
+            Day. Poonam Tala, The founder of Alphabit, had a single vision, to
+            bring innovation in the education field with the help of information
+            technology.
+          </p>
+          <p>
+            After completing her computer engineering at Gujarat Technological
+            University (GTU), Poonam Tala started Alphabet with three developers
+            by setting up ten computers in a classroom of her relative's school
+            to make her vision worthwhile.
+          </p>
+          <p>
+            Today, along with industrial training, Alphabit provides small scale
+            to large scale industrial services and also does product development
+            on the unique ideas of entrepreneur’s and with its branches in two
+            mega cities of Gujarat, Alphabit also provides services with its
+            team in countries like Dubai, Denmark including US, UK, Australia
+            and Canada.
           </p>
         </div>
-      </section>
-      <section class="aboutpage-container2">
-        <div class="aboutus2">
-          <div class="about-image1">Image</div>
-          <div class="about-image2">
-            <div class="about-image3">
-              <div class="about-card">Image</div>
-              <div class="about-card text">
-                <img src="./assets/images/about-logo-white.png" alt="" />
-                <p>We helped to get companies with $25M+ funding</p>
-                <h1>25M+</h1>
-              </div>
-            </div>
-            <div class="about-image4">
-              <div class="about-card1 text light">
-                <img src="./assets/images/about-logo-white.png" alt="" />
-                <p>We have 100+ satisfied clients</p>
-                <h1>100+</h1>
-              </div>
-              <div class="about-card1">Image</div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="aboutpage-container3">
-        <div class="about-container1">
-          <div class="about-image">
-            <img src="./assets/images/about-logo-purple.png" alt="About Image" />
-          </div>
-          <div class="text-stack">
-            <div class="about-text1">
-              <div class="ellipse-icon">
-                <img src="./assets/images/orange-arrow.png" alt="Ellipse Icon" />
-              </div>
-              <h2 class="about-text2">LET ME INTRODUCE</h2>
-              <div class="about-text3 left-margin text3-mobile">
-                HAVE A BRILLIANT
-              </div>
-            </div>
-            <div class="about-text3">IDEA BOOST THE GROWTH</div>
-            <div class="about-text3">
-              <span class="text-with-border">DEVELOPMENT</span
-              ><span class="text-black"> AGENCY</span>
-            </div>
-            <div class="about-text3">
-              <span class="text-black"> YOUR </span
-              ><span class="text-with-border">BRANDING! </span>
-            </div>
-            <div class="about-page-description">
-              <p>
-                Alphabit Infoway had started its journey on March 8, 2018 at
-                Women's Day. Poonam Tala, The founder of Alphabit, had a single
-                vision, to bring innovation in the education field with the help
-                of information technology.
-              </p>
-              <p>
-                After completing her computer engineering at Gujarat
-                Technological University (GTU), Poonam Tala started Alphabet
-                with three developers by setting up ten computers in a classroom
-                of her relative's school to make her vision worthwhile.
-              </p>
-              <p>
-                Today, along with industrial training, Alphabit provides small
-                scale to large scale industrial services and also does product
-                development on the unique ideas of entrepreneur’s and with its
-                branches in two mega cities of Gujarat, Alphabit also provides
-                services with its team in countries like Dubai, Denmark
-                including US, UK, Australia and Canada.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="aboutpage-container4">
-        <section class="counting-section">
-          <div class="counting-item">
-            <h1 class="counting-number" data-target="10">0+</h1>
-            <h6 class="counting-text">YEARS OF EXPERIENCE</h6>
-          </div>
+      </div>
+    </div>
+  </section>
+  <section class="aboutpage-container4">
+    <section class="counting-section">
+      <div class="counting-item">
+        <h1 class="counting-number" data-target="10">0+</h1>
+        <h6 class="counting-text">YEARS OF EXPERIENCE</h6>
+      </div>
 
-          <div class="counting-item">
-            <h1 class="counting-number" data-target="100">0+</h1>
-            <h6 class="counting-text">PROJECTS COMPLETED</h6>
-          </div>
+      <div class="counting-item">
+        <h1 class="counting-number" data-target="100">0+</h1>
+        <h6 class="counting-text">PROJECTS COMPLETED</h6>
+      </div>
 
-          <div class="counting-item">
-            <h1 class="counting-number" data-target="60">0+</h1>
-            <h6 class="counting-text">PRODUCT USERS</h6>
-          </div>
-        </section>
-      </section>
-    
-    <!--#include file="footer.shtml" -->
+      <div class="counting-item">
+        <h1 class="counting-number" data-target="60">0+</h1>
+        <h6 class="counting-text">PRODUCT USERS</h6>
+      </div>
+    </section>
+  </section>
+  <section class="aboutpage-container5">
+    <div class="title-header">
+      <h2 class="section-title">OUR <span class="orange-bg">HISTORY</span></h2>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item left">
+        <div class="year-badge">2018</div>
+        <div class="timeline-card">
+          Alphabit has Started Its Journey on 8th March 2018 at Women’s Day with
+          the team of Three Developer’s.
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-card">
+          Alphabit has taken initiation to provide services to small scale to
+          large scale industries and work globally.
+        </div>
+        <div class="year-badge">2019</div>
+      </div>
+      <div class="timeline-item left">
+        <div class="year-badge">2020-21</div>
+        <div class="timeline-card">
+          When world was suffering from Covid-19, Alphabit provided services to
+          education field for online teaching and also provided services to
+          Govt. of Gujarat.
+        </div>
+      </div>
+      <div class="timeline-item right">
+        <div class="timeline-card">
+          Now Alphabit Infoway is launching its product for Education &
+          E-Commerce sector which will be a scalable product for college
+          fresher’s.
+        </div>
+        <div class="year-badge">2022-23</div>
+      </div>
+    </div>
+  </section>
+  <section class="aboutpage-container6">
+    <div class="title-header">
+      <h2 class="section-title">
+        ALPHABIT'S <span class="orange-bg">BELIEVES</span>
+      </h2>
+    </div>
+
+    <div class="believes-wrapper">
+      <!-- MISSION -->
+      <div class="believes-card">
+        <div class="card-icon">icon</div>
+        <h3 class="card-title">MISSION</h3>
+        <p class="card-text">
+          Creating a flexible environment where every employee can accept and
+          respect each other’s ideas and things and the company can provide
+          performant IT solutions and service to our clients.
+        </p>
+      </div>
+
+      <!-- VISION -->
+      <div class="believes-card">
+        <div class="card-icon">icon</div>
+        <h3 class="card-title">VISION</h3>
+        <p class="card-text">
+          We aim to be the leading technology and service provider company whose
+          creation of innovative activities and excellent services make us a
+          reliable guiding light. We want to be a company that conducts business
+          with integrity and reliability. Where our customers take pride in
+          associating with us and our teams get gisted with innovation.
+        </p>
+      </div>
+
+      <!-- WORK ETHICS -->
+      <div class="believes-card">
+        <div class="card-icon">icon</div>
+        <h3 class="card-title">WORK ETHICS</h3>
+        <p class="card-text">
+          We always give the best possible solution for your business. Unbiased,
+          active and honest opinions. We always commit to give the extra mile.
+          Always fresh and innovative thinking. One step ahead of competitors.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="schedule-section">
+    <div class="schedule-content">
+      <p>👋🏼 Hey Innovator,</p>
+      <h2>
+        I'm Your<span class="span-image"></span
+        ><span class="span-orange"> AI</span
+        ><span class="span-white">(Alphabit Infoway)</span>
+      </h2>
+      <h2>
+        <span class="span-orange">Buddy, </span>Let's<span
+          class="span-image"
+        ></span>
+        Convert
+      </h2>
+      <h2>
+        Your <span class="span-white">Idea</span
+        ><span class="span-image"></span> into
+        <span class="span-white">Reality</span>
+      </h2>
+    </div>
+    <button class="schedule-btn">Schedule a Meeting</button>
+  </section>
+  <section class="aboutpage-container7">
+    <div class="title-header">
+      <h2 class="section-title">WE WORKED WITH LARGEST</h2>
+      <h2 class="section-title">GLOBAL <span class="orange-bg">BRAND</span></h2>
+    </div>
+
+    <div class="logo-container">
+      <div class="logo-section">
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Sport University.png" alt="" />
+        </div>
+      </div>
+      <div class="logo-section">
+        <div class="logo-box">
+          <img src="./assets/images/logo/Daksh Prajapat.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Prosure.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/RES Solar.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/serona.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Shivon.png" alt="" />
+        </div>
+      </div>
+      <div class="logo-section">
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Shayad Food.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Red Carpet.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/SAHAYOG ENERGY.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Dalunar.png" alt="" />
+        </div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Soncera.png" alt="" />
+        </div>
+      </div>
+      <div class="logo-section">
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box empty-box"></div>
+        <div class="logo-box">
+          <img src="./assets/images/logo/Tiffin Uncle.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--#include file="footer.shtml" -->
+</div>
