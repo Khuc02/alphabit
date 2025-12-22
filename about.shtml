@@ -7,7 +7,7 @@
     <h1>KARMA is Our identity Because</h1>
     <h1>the Principle of Living is <span class="orange-text2">KARMA!</span></h1>
     <div class="aboutus1">
-      <h6>01.ABOUT US</h6>
+      <h6>ABOUT US</h6>
       <div class="about-horizontal-line"></div>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,14 +25,15 @@
           <div class="about-card text">
             <img src="./assets/images/about-logo-white.png" alt="" />
             <p>We helped to get companies with $25M+ funding</p>
-            <h1>25M+</h1>
+            <!-- <h1>25M+</h1> -->
+              <h1 class="counting" data-target="25">0M+</h1>
           </div>
         </div>
         <div class="about-image4">
           <div class="about-card1 text light">
             <img src="./assets/images/about-logo-white.png" alt="" />
             <p>We have 100+ satisfied clients</p>
-            <h1>100+</h1>
+            <h1 class="counting" data-target="100">0+</h1>
           </div>
           <div class="about-card1">Image</div>
         </div>

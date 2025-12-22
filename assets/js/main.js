@@ -218,3 +218,45 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   items.forEach(item => observer.observe(item));
+
+
+  // counting numbers FOR ABOUT PAGE
+  
+  const counters = document.querySelectorAll(".counting");
+  const section = document.querySelector(".aboutpage-container2");
+  let started = false;
+
+  function startCounting() {
+    counters.forEach((counter) => {
+      const target = +counter.getAttribute("data-target");
+      let current = 0;
+      const speed = target / 200;
+
+      const updateCount = () => {
+        if (current < target) {
+          current += speed;
+          counter.innerText = Math.floor(current) + "+";
+          requestAnimationFrame(updateCount);
+        } else {
+          counter.innerText = target + "+";
+        }
+      };
+
+      updateCount();
+    });
+  }
+
+  if (section) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !started) {
+            startCounting();
+            started = true;
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+    observer.observe(section);
+  }

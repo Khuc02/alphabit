@@ -3712,10 +3712,21 @@ header {
   position: absolute;
   bottom: -40px;
   left: 45%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 100px); 
   font-size: 90px;
   z-index: 3;
+  opacity: 0;
+
+  animation: fadeUp 1s ease-out forwards;
 }
+
+@keyframes fadeUp {
+  to {
+    transform: translate(-50%, 0);
+    opacity: 1;
+  }
+}
+
 .light {
   background-color: #dcdcdc !important;
   color: #000 !important;
@@ -3864,7 +3875,7 @@ header {
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.12);
 }
 
-.timeline::before {
+.aboutpage-container5 .timeline::before {
   content: "";
   position: absolute;
   width: 100%;
