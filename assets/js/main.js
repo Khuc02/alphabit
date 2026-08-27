@@ -1,3 +1,27 @@
+// Text Fragment Cleaning (https://alphabitinfoway.com/#:~:text=Explore%20Us -> https://alphabitinfoway.com/)
+(function () {
+  try {
+    if (typeof window !== 'undefined' && window.location) {
+      var hash = window.location.hash || '';
+      var href = window.location.href || '';
+      var search = window.location.search || '';
+      if (
+        hash.indexOf(':~:text=') !== -1 ||
+        href.indexOf(':~:text=') !== -1 ||
+        search.indexOf(':~:text=') !== -1 ||
+        hash.indexOf('Explore%20Us') !== -1 ||
+        hash.indexOf('Explore Us') !== -1
+      ) {
+        if (window.history && window.history.replaceState) {
+          window.history.replaceState(null, '', window.location.pathname + window.location.search);
+        } else {
+          window.location.replace('https://alphabitinfoway.com/');
+        }
+      }
+    }
+  } catch (e) {}
+})();
+
 function slugify(text) {
   return text
     .toString()

@@ -13,6 +13,28 @@
     })(window, document, 'script', 'dataLayer', 'GTM-N7XK5D9C');</script>
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8" />
+  <script>
+    (function () {
+      try {
+        var hash = window.location.hash || '';
+        var href = window.location.href || '';
+        var search = window.location.search || '';
+        if (
+          hash.indexOf(':~:text=') !== -1 ||
+          href.indexOf(':~:text=') !== -1 ||
+          search.indexOf(':~:text=') !== -1 ||
+          hash.indexOf('Explore%20Us') !== -1 ||
+          hash.indexOf('Explore Us') !== -1
+        ) {
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, '', window.location.pathname + window.location.search);
+          } else {
+            window.location.replace('https://alphabitinfoway.com/');
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Development Company in India | Alphabit Infoway</title>
 

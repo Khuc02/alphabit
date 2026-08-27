@@ -33,6 +33,10 @@ RewriteRule ^.*/assets/(.*)$ /assets/$1 [L,NC]
 RewriteCond %{THE_REQUEST} /index(?:\.html)?[\s\?] [NC]
 RewriteRule ^(.*)index(?:\.html)?$ / [R=301,L]
 
+# Explore Us Text Fragment / Query String Redirect
+RewriteCond %{QUERY_STRING} text=Explore [NC]
+RewriteRule ^ https://alphabitinfoway.com/ [R=301,L]
+
 # 2. Technology -> /ai-development-technologies
 RewriteRule ^technology/?$ /ai-development-technologies [R=301,L,NC]
 
