@@ -180,7 +180,7 @@
       "permanent": true
     },
     {
-      "source": "/contact.html",
+      "source": "/contact-us",
       "destination": "/contact-us",
       "permanent": true
     },
@@ -357,7 +357,7 @@
     },
     {
       "source": "/contact-us",
-      "destination": "/contact.html"
+      "destination": "/contact-us"
     },
     {
       "source": "/career",

@@ -4963,10 +4963,11 @@ div.container header a.contact-btn {
 }
 
 .aboutpage-container1 h1 {
-  font-size: 72px;
+  font-size: clamp(36px, 4.5vw, 52px);
   font-weight: 600;
   color: #000;
   line-height: 1.2;
+  text-align: center;
 }
 
 .orange-text2 {
@@ -4995,7 +4996,7 @@ div.container header a.contact-btn {
 }
 
 .aboutus1 p {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
   color: #7a7a7a;
   max-width: 45%;
@@ -5263,7 +5264,7 @@ div.container header a.contact-btn {
   background: #fff;
   padding: 60px 80px;
   border-radius: 40px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.6;
   font-weight: 400;
   color: #7a7a7a;
@@ -6000,6 +6001,7 @@ div.container header a.contact-btn {
 
   .aboutpage-container1 h1 {
     font-size: 45px;
+    text-align: left;
   }
 
   .aboutus1 {
